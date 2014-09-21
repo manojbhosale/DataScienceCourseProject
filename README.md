@@ -3,17 +3,17 @@ DataScienceCourseProject
 1) Input files
 Script requires folowing input files to work
 
- Files in "train" folder
+ Files in "train" folder :
 	 "X_train.txt"
 	 "subject_train.txt"
 	 "y_train.txt"
 	 
- Files in "test" folder
+ Files in "test" folder : 
 	 "X_test.txt"
 	 "subject_test.txt"
 	 "y_test.txt"
 	 
- Files in the working directory.
+ Files in the working directory :
 	 "activity_labels.txt"
 	 "features.txt"
 	 
