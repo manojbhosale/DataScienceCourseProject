@@ -2,7 +2,7 @@ Index
 
 	1) Data
 	2) Variable Information
-	3) Transformations perforedm on the data.
+	3) Transformations performed on the data.
 
 
 1) Data
