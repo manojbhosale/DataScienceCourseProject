@@ -17,9 +17,9 @@ Script requires folowing input files to work
 	 "activity_labels.txt"
 	 "features.txt"
 	 
-	**"train" and "test" folders will be in working directory along with the "run_analysis.R"	script
+**"train" and "test" folders will be in working directory along with the "run_analysis.R"	script
 	
-	Above mentioned files were read with read.table() and stoere in corresponding objects for use.
+Above mentioned files were read with read.table() and stoere in corresponding objects for use.
 	
 2) Extracts only the measurements on the mean and standard deviation column names with index.
 	grep() fuction was used with perl like regular expression. Indices of such colums were stored in object "meanStdcols"
