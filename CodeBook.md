@@ -15,7 +15,7 @@ Index
 
 2) Variable Information
 
-	These signals were used to estimate variables of the feature vector for each pattern:  
+	Above signals were used to estimate variables of the feature vector for each pattern:  
 	'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 	tBodyAcc-XYZ
@@ -67,6 +67,7 @@ Index
 
 
 3) Transformations
+
 	i) There were 561 variables in the training and test data set.
 	ii) Transformations were done on one data set at time.
 	iii) All these variables from train data were assigned name(column names) from the features list.
