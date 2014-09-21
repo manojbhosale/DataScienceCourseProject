@@ -2,19 +2,19 @@ DataScienceCourseProject
 ========================
 1) Input files
 	Script requires folowing input files to work
-	In "train" folder
-		"X_train.txt"
-		"subject_train.txt"
-		"y_train.txt"
+	Files in "train" folder
+	"X_train.txt"
+	"subject_train.txt"
+	"y_train.txt"
 
-	In "test" folder
-		"X_test.txt"
-		"subject_test.txt"
-		"y_test.txt"
+	Files in "test" folder
+	"X_test.txt"
+	"subject_test.txt"
+	"y_test.txt"
 
 	Files in the working directory.
-		"activity_labels.txt"
-		"features.txt"
+	"activity_labels.txt"
+	"features.txt"
 	**"train" and "test" folders will be in working directory along with the "run_analysis.R"	script
 	
 	Above mentioned files were read with read.table() and stoere in corresponding objects for use.
