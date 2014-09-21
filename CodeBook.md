@@ -76,8 +76,8 @@ Index
 	v) Then only the column having the mean and standard deviation data were retained.
 	vi) Activity and subject information was added to the data with cbind() function.
 	vii) Steps ii through vi were performed for test data too.
-	viii) Later on both train and test data (with  added activity column and subject column) were combined with rbind() function.
-	ix) Now  aggregate() function was caleld on the combined data frame to get mean of every column for each combination of the Subject and Activity.
+	viii) Later on both train and test data (with  added activity and subject columns) were combined with rbind() function.
+	ix) Now  aggregate() function was called on the combined data frame to get mean of every column for each combination of the Subject and Activity.
 	x) Finally the data  frame was writtent to the TEXT file with write.table() function having row.name argument.as FALSE.
 
 
