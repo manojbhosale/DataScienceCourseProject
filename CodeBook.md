@@ -75,6 +75,7 @@ Index
 	iv) These feature names were transformed in such a way that the function icons like "()","-" were replaced with either space or the underscrore("_") 
 	v) Then only the column having the mean and standard deviation data were retained.
 	vi) Activity and subject information was added to the data with cbind() function.
+	vii) Activity column was renamed to  Body_Activity and subject was renamed to Person_Identifier
 	vii) Steps ii through vi were performed for test data too.
 	viii) Later on both train and test data (with  added activity and subject columns) were combined with rbind() function.
 	ix) Now  aggregate() function was called on the combined data frame to get mean of every column for each combination of the Subject and Activity.
